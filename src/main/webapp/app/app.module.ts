@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { PostsComponent } from './modules/posts/posts.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {CoreModule} from "./core/core.module";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    DefaultModule
+    DefaultModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
